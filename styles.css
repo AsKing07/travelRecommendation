@@ -438,7 +438,7 @@ border-radius: 10px;
 
     .searchResultCard img{
         width: 100%;
-        height: 75%;
+        height: 300px;
         object-fit: cover;
     }
     .searchResultCard h3{
