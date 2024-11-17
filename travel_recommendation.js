@@ -42,6 +42,10 @@ clear = () => {
     searchResults.innerHTML = '';
     let recommendationsSection = document.getElementsByClassName('recommendations')[0];
     recommendationsSection.classList.add('hidden');
+
+// clear the input field
+document.getElementById('searchInput').value = '';
+
 }
 
 clearBtn.addEventListener('click', clear);
